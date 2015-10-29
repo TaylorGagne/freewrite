@@ -22,12 +22,26 @@
   </div>
 </nav>
 
-<% @articles.each do |article| %>
-    <div class="article">
+<aside class="sidebar" id="sidebar">
+  <article>
+    <h3>Free Writing Is Beautiful</h3>
+    <p>The art of writing has been around for centuries. Writing is the best way people can express themselves. You can
+      writing with your emotions to free your mind from the situation or current events going on inside of your day to
+      day life.</p>
+  </article>
+</aside>
 
-      <p class="content"><%= article.title %></p>
-      <p class="content"><%= article.body %></p>
+<% @articles.each do |article| %>
+    <div class="container article_area">
+      <div class="col-sm-12 title">
+      <h2 class="title"><%= article.title %></h2>
+      </div>
+      <div class="col-sm-12 body">
+      <article class="content"><%= article.body %></article>
+      </div>
+      <div class="col-sm-12 time">
       <p class="time"><%= article.created_at %></p>
+    </div>
     </div>
 <% end %>
 

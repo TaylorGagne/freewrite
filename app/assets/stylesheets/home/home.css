@@ -122,10 +122,28 @@ body {
     border-color: #6e6e6e;
 }
 
-.content{
+.article_area{
+    background-color: #6e6e6e;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.col-sm-12{
+    display: block;
+    text-align: center;
+}
+
+.title{
+    color: #f3843e;
+    text-decoration: solid #F7F7F7;
+}
+
+
+.content {
     color: #F7F7F7;
 }
 
 .time {
     color: #FF5A09;
+
 }
