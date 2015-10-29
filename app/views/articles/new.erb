@@ -23,13 +23,13 @@
 </nav>
 
 <div class="create">
-  <div class="container">
+  <div class="container-fluid">
 
 
     <%= form_for @article do |t| %>
-        <%= t.text_field :title %>
-        <%= t.text_area :body, size: '60x12' %>
-        <%= t.submit 'Create' %>
+        <%= t.text_field :title, :placeholder => 'Title', :class => 'article_title'  %>
+        <%= t.text_area :body, :placeholder => 'Article', :class => 'article_body' %>
+        <%= t.submit 'Post', :class => 'btn-btn-article' %>
 <% end %>
       </div>
     </div>  

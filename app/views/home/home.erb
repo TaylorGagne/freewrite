@@ -1,6 +1,6 @@
 <nav class="navbar navbar-custom" id="nav">
   <div class="container-fluid">
-    <a class="navbar-brand navbar-left" id="brand" href="home.erb">ChatMe</a>
+   <%= link_to 'ChatMe', root_path, :class => 'navbar-brand navbar-left', :id => 'brand'%>
     <div class="dropdown navbar-right">
       <button class="btn btn-custom dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
         <span class="glyphicon glyphicon-align-justify"></span>
@@ -41,7 +41,7 @@
 <div class="articles">
   <div class="container-fluid">
 
-<%= link_to 'New Atricle', "articles/new" %>
+    <%= button_to "Create an Article", new_article_path, :class => "create_article_link", :method => 'get' %>
 
 </div>
 </div>

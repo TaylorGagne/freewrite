@@ -10,6 +10,19 @@ body {
 
 }
 
+.create_article_link{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #FF5A09;
+    color: #F7F7F7;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #6e6e6e;
+}
+
 .btn-custom {
     position: relative;
     height: 50px;
@@ -71,3 +84,48 @@ body {
     position: relative;
 }
 
+.article_title {
+    display: list-item;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ff9900;
+
+}
+
+.article_body{
+
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1000px;
+    height: 1000px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ff9900;
+
+}
+
+.btn-btn-article{
+    float: right;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-right: 270px;
+    margin-bottom: 150px;
+    background-color: #FF5A09;
+    color: #F7F7F7;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #6e6e6e;
+}
+
+.content{
+    color: #F7F7F7;
+}
+
+.time {
+    color: #FF5A09;
+}
