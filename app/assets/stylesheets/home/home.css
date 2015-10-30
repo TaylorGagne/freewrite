@@ -44,8 +44,9 @@ body {
     color: #F7F7F7;
 }
 .sidebar{
-    position: fixed;
+    position: absolute;
     top:53px; bottom:0; left:0;
+    height: 1510px;
     width:200px;
     border-style: solid;
     border-width: 3px;
@@ -101,7 +102,7 @@ body {
     margin-left: 300px;
     margin-right: 300px;
     width: 1000px;
-    height: 1000px;
+    height: 1450px;
     border-style: solid;
     border-width: 3px;
     border-color: #ff9900;
